@@ -5,7 +5,7 @@ services:
         container_name: reddit-postgres
         restart: always
         ports:
-            - "5432:5432"
+            - "3306:5432"
         environment:
             POSTGRES_USER: "postgres"
             POSTGRES_PASSWORD: "password"
