@@ -4,7 +4,7 @@ import { DataSource } from "typeorm"
 export const AppDataSource = new DataSource({
     type: "postgres",
     host: "host.docker.internal",
-    port: 3306,
+    port: 5433,
     username: "postgres",
     password: "password",
     database: "postgres",
